@@ -1,6 +1,6 @@
 {
   "name": "akari-manager",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "State and Messages Manager",
   "main": "lib/index.js",
   "type": "module",
