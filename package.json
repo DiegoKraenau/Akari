@@ -1,5 +1,5 @@
 {
-  "name": "Akari",
+  "name": "akari-manager",
   "version": "1.0.0",
   "description": "State and Messages Manager",
   "main": "lib/index.js",
