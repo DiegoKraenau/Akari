@@ -7,15 +7,11 @@
   "files": [
     "lib/"
   ],
-  "author": "Diego Armando Kraenau Rodriguez <diegokraenau@gmail.com>",
+  "author": "",
   "types": "./lib/index.d.ts",
-  "directories": {
-    "lib": "lib"
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
   "license": "ISC",
   "dependencies": {
     "rxjs": "^7.5.7"
