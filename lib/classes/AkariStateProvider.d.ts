@@ -1,3 +1,4 @@
+import { Observable } from "rxjs";
 export declare class AkariStateProvider {
     private _state;
     constructor(initialState?: any);
@@ -23,5 +24,12 @@ export declare class AkariStateProvider {
      * @param key - Key name of state
      * @returns Observable
      */
-    listenState(key: string): any;
+    listenState(key: string): Observable<any>;
+    /**
+     * @decs Adding new state to store
+     * @param key - Key name of state
+     * @param value - Value of state
+     * @returns void
+     */
+    addState(key: string, value: any): void;
 }
