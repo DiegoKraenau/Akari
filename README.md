@@ -22,8 +22,6 @@ The followins methos are:
 ```
     * store.getState(property?: string): any | Allows to get all state or by a specific name
     * store.setState(key: string, value: any, emitValue: boolean = true): void | Allows to add a value to the state
-    * store.istenState(key: string): Observable<any>) | Listen when the state changes
+    * store.listenState(key: string): Observable<any>) | Listen when the state changes
     * store.addState(key: string, value: any): void | Adding new state to store
 ```
-
-
