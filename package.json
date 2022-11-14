@@ -23,5 +23,9 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/DiegoKraenau/akari-manager.git"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/DiegoKraenau/akari-manager/issues"
+  },
+  "homepage": "https://github.com/DiegoKraenau/akari-manager#readme"
 }
