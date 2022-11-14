@@ -52,11 +52,21 @@ export class AkariStateProvider {
    * @param key - Key name of state
    * @returns Observable
    */
-  public listenState(key: string): any {
+  public listenState(key: string): Observable<any> {
     const stateFound = AkariUtility.findProperty(this.getState(), key);
 
     return stateFound
-      ? this._state.get(key)?.asObservable()
+      ? this._state.get(key)!.asObservable()
       : new Observable<any>();
+  }
+
+  /**
+   * @decs Adding new state to store
+   * @param key - Key name of state
+   * @param value - Value of state
+   * @returns void
+   */
+  public addState(key: string, value: any): void {
+    this._state.set(key, new BehaviorSubject<any>(value));
   }
 }
